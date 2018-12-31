@@ -17,5 +17,12 @@
 android_app {
     name: "ModuleMetadata",
     sdk_version: "28",
-    installable: false,
+
+    optimize: {
+        enabled: false,
+    },
+
+    dex_preopt: {
+        enabled: false,
+    },
 }
