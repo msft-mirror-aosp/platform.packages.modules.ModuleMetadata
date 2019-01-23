@@ -18,6 +18,7 @@ android_app {
     name: "ModuleMetadata",
     sdk_version: "28",
 
+    product_specific: true,
     optimize: {
         enabled: false,
     },
