@@ -20,7 +20,7 @@ package {
 
 android_app {
     name: "ModuleMetadata",
-    sdk_version: "28",
+    sdk_version: "current",
 
     product_specific: true,
     optimize: {
