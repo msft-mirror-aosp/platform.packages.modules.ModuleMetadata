@@ -30,4 +30,8 @@ android_app {
     dex_preopt: {
         enabled: false,
     },
+    licenses: [
+        "Android-Apache-2.0",
+        "opensourcerequest",
+    ],
 }
